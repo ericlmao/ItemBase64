@@ -1,0 +1,11 @@
+name: ItemBase64
+version: '${project.version}'
+main: dev.negativekb.itembase64.ItemBase64
+authors: [ Negative ]
+description: A way to serialize items without needing to code!
+
+commands:
+  tobase64:
+    description: Convert the Item in your hand to Base64 code
+    permission: itembase64.use
+    usage: /<command>
